@@ -1,12 +1,12 @@
-
 <script setup lang="ts">
-  
+// Layout component for the default page structure
 </script>
 
 <template>
-  <div>
-    <!-- TODO: this is from navbar component  -->
-    <!-- <BaseNavigation /> -->
-    <slot />
+  <div class="min-h-screen bg-black-950">
+    <BaseNavigation />
+    <main>
+      <slot />
+    </main>
   </div>
 </template>

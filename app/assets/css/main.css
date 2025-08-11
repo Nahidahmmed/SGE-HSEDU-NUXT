@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+    html {
+        font-family: 'Montserrat', system-ui, sans-serif;
+    }
+
+    body {
+        @apply bg-black-950 text-white;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-semibold text-white;
+    }
+
+    h1 {
+        @apply text-4xl md:text-5xl;
+    }
+
+    h2 {
+        @apply text-3xl md:text-4xl;
+    }
+
+    h3 {
+        @apply text-2xl md:text-3xl;
+    }
+
+    h4 {
+        @apply text-xl md:text-2xl;
+    }
+
+    h5 {
+        @apply text-lg md:text-xl;
+    }
+
+    h6 {
+        @apply text-base md:text-lg;
+    }
+}
+
+/* Custom component styles */
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200;
+    }
+
+    .btn-primary {
+        @apply btn bg-white text-black-950 hover:bg-gray-100 focus:ring-gray-300;
+    }
+
+    .btn-secondary {
+        @apply btn bg-black-800 text-white hover:bg-black-700 focus:ring-black-600;
+    }
+
+    .btn-outline {
+        @apply btn border-2 border-white text-white bg-transparent hover:bg-white hover:text-black-950 focus:ring-white;
+    }
+
+    .card {
+        @apply bg-black-900 rounded-xl shadow-soft border border-black-800 p-6;
+    }
+
+    .input {
+        @apply block w-full px-3 py-2 border border-black-700 rounded-md shadow-sm placeholder-black-400 bg-black-800 text-white focus:outline-none focus:ring-white focus:border-white;
+    }
+
+    .form-group {
+        @apply space-y-2;
+    }
+
+    .form-label {
+        @apply block text-sm font-medium text-white;
+    }
+
+    .form-error {
+        @apply text-sm text-red-400;
+    }
+
+    .nav-link {
+        @apply text-black-300 hover:text-white transition-colors duration-200 px-3 py-2 rounded-md text-sm font-medium;
+    }
+
+    .nav-link-active {
+        @apply text-white bg-black-800;
+    }
+}
+
+/* Custom utility styles */
+@layer utilities {
+    .text-gradient {
+        @apply bg-gradient-to-r from-white to-black-300 bg-clip-text text-transparent;
+    }
+
+    .bg-gradient-primary {
+        @apply bg-gradient-to-r from-black-950 to-black-900;
+    }
+
+    .bg-gradient-secondary {
+        @apply bg-gradient-to-r from-black-900 to-black-800;
+    }
+
+    .animate-fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .animate-slide-up {
+        animation: slideUp 0.5s ease-out;
+    }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
