@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full bg-white fixed top-0 left-0 z-50">
+  <nav class="w-full bg-white fixed top-0 left-0 z-[9999]">
     <div class="max-w-7xl mx-auto flex items-center px-4 py-3">
       <!-- Left: Hamburger + Logo -->
       <div class="flex items-center gap-3">

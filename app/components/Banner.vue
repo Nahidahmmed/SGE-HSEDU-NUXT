@@ -1,9 +1,9 @@
-<!-- app/components/banner/Banner.vue -->
+
 <template>
   <div class="relative h-[650px] w-full max-w-[1400px] mx-auto rounded-3xl py-12 px-0 md:px-8 lg:px-16 overflow-hidden bg-blue-100">
     <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-10">
       <!-- Mobile copy -->
-      <div class="block md:hidden px-6 text-center pt-20">
+      <div class="block md:hidden px-6 text-center pt-20 relative z-20">
         <h1 class="text-4xl font-bold text-[#363B51]">Your Future Goes</h1>
         <h1 class="text-4xl font-bold text-[#145cf8]">Beyond Borders</h1>
         <p class="mt-2 text-sm text-[#363B51]">

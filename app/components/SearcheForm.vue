@@ -3,13 +3,12 @@
     class="w-full max-w-6xl mx-auto rounded-2xl py-10 lg:px-10 md:px-10 px-3 bg-gradient-to-r from-[#0644A6] to-[#0063E7] text-white shadow-lg"
   >
     <!-- Top Text -->
-    <h2 class="text-2xl md:text-3xl lg:px-0 md:px-0 px-18 font-semibold text-center mb-6 text-white">
+    <h2 class="text-3xl lg:px-0 md:px-0 px-5 font-semibold text-center mb-6 text-white">
       <span class="font-bold">15 million</span> searches and counting
     </h2>
 
     <!-- Search Form -->
-    <div class="flex flex-col md:flex-row items-start md:items-center gap-4 relative px-20">
-      <!-- Search Input with icon -->
+    <div class="flex flex-col md:flex-row items-start md:items-center gap-4 relative px-5">
       <div class="relative w-full md:flex-1" ref="inputWrap">
         <div class="flex items-center bg-white rounded-[8px] px-3 py-2">
           <MagnifyingGlassIcon class="w-5 h-5 text-gray-500 mr-2" />
@@ -27,7 +26,7 @@
           />
         </div>
 
-        <!-- Autocomplete Dropdown -->
+        
         <ul
           v-if="open && filteredPrograms.length > 0"
           class="absolute top-full mt-1 w-full bg-white text-black rounded-[8px] shadow-md z-10 max-h-60 overflow-y-auto"
@@ -45,7 +44,7 @@
         </ul>
       </div>
 
-      <!-- Country Select with icon -->
+      
       <div class="flex items-center w-full md:w-1/3 bg-white rounded-[8px] px-3 py-[10px]">
         <GlobeAltIcon class="w-5 h-5 text-gray-500 mr-2" />
         <select v-model="country" class="w-full bg-transparent text-black focus:outline-none">
@@ -56,7 +55,7 @@
         </select>
       </div>
 
-      <!-- Search Button -->
+      
       <button
         class="w-full md:w-auto bg-white text-[#3985e7] font-semibold px-8 py-[9px] rounded-[8px] hover:bg-gray-100 transition"
         @click="submit"

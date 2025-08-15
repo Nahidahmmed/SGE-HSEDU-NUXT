@@ -42,8 +42,8 @@
         >
           <SwiperSlide v-for="item in highlights" :key="item.id">
             <div
-              class="rounded-xl p-6 flex flex-col items-center text-center bg-white w-[80%] mx-auto"
-              :style="{ boxShadow: '1px 1px 15px 2px #D4D4D4' }"
+              class="rounded-xl mt-5 p-6 flex flex-col items-center text-center bg-white w-[95%] mx-auto"
+              :style="{ boxShadow: '-3px 8px 10px -3px #D4D4D4' }"
             >
               <img
                 :src="item.image"
