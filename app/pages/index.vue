@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import Applications from "~/components/Applications.vue";
 import Banner from "~/components/Banner.vue";
+import ChannelPartners from "~/components/ChannelPartners.vue";
+import GetStarted from "~/components/GetStarted.vue";
+import Partners from "~/components/Partners.vue";
+import Programs from "~/components/Programs.vue";
 import Review from "~/components/Review.vue";
 import SearcheForm from "~/components/SearcheForm.vue";
 import StudyAbroad from "~/components/StudyAbroad.vue";
@@ -23,6 +27,11 @@ definePageMeta({
       <StudyProgram />
       <Applications />
       <Review />
+      <Partners />
+      <ChannelPartners />
+      <Programs />
+      <FaqSection />
+      <GetStarted />
     </section>
   </main>
 </template>

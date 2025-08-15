@@ -1,7 +1,7 @@
 <template>
   <div class="study-abroad max-w-[1200px] mx-auto px-4">
     <p
-      class="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#363B51] text-left leading-[60px] lg:mt-36 lg:w-[700px] md:w-auto w-full mt-64 mx-auto"
+      class="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#363B51] text-left leading-[60px] lg:mt-36 lg:w-[700px] md:w-auto w-full mt-72 mx-auto"
     >
       The Fastest and Easiest Way to Successfully Study Abroad
     </p>
