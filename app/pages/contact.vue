@@ -45,7 +45,7 @@ const handleSubmit = async () => {
     <main class="min-h-screen">
         <!-- Hero Section -->
         <section class="relative bg-gradient-primary text-white py-20">
-            <div class="container mx-auto px-4 text-center">
+            <div class="max-w-7xl mx-auto px-4 text-center">
                 <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
                     Contact <span class="text-white">Us</span>
                 </h1>
@@ -57,7 +57,7 @@ const handleSubmit = async () => {
 
         <!-- Contact Form Section -->
         <section class="py-20 bg-black-900">
-            <div class="container mx-auto px-4">
+            <div class="max-w-7xl mx-auto px-4">
                 <div class="max-w-2xl mx-auto">
                     <div class="card">
                         <h2 class="text-3xl font-bold text-white mb-8 text-center">Send us a Message</h2>
@@ -117,7 +117,7 @@ const handleSubmit = async () => {
 
         <!-- Contact Info Section -->
         <section class="py-20 bg-black-950 text-white">
-            <div class="container mx-auto px-4">
+            <div class="max-w-7xl mx-auto px-4">
                 <div class="max-w-4xl mx-auto text-center">
                     <h2 class="text-4xl font-bold mb-12">Other Ways to Reach Us</h2>
 
@@ -146,8 +146,5 @@ const handleSubmit = async () => {
     </main>
 </template>
 
-<style scoped>
-.container {
-    max-width: 1200px;
-}
-</style>
+
+

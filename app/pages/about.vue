@@ -8,7 +8,7 @@ definePageMeta({
     <main class="min-h-screen">
         <!-- Hero Section -->
         <section class="relative bg-gradient-primary text-white py-20">
-            <div class="container mx-auto px-4 text-center">
+            <div class="max-w-7xl mx-auto px-4 text-center">
                 <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
                     About <span class="text-white">SGE-HSEDU</span>
                 </h1>
@@ -64,8 +64,5 @@ definePageMeta({
     </main>
 </template>
 
-<style scoped>
-.container {
-    max-width: 1200px;
-}
-</style>
+
+

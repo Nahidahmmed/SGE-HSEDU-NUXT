@@ -10,9 +10,3 @@ definePageMeta({
         <SignupForm />
     </div>  
 </template>
-
-<style scoped>
-.container {
-  max-width: 1200px;
-}
-</style>

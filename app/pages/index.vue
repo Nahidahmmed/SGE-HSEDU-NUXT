@@ -36,4 +36,4 @@ definePageMeta({
   </main>
 </template>
 
-<style scoped></style>
+
